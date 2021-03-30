@@ -6,14 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>730</width>
-    <height>577</height>
+    <width>1370</width>
+    <height>720</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1370</width>
+    <height>720</height>
+   </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>730</width>
-    <height>577</height>
+    <width>1380</width>
+    <height>720</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -35,8 +41,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>270</y>
+      <x>160</x>
+      <y>120</y>
       <width>70</width>
       <height>70</height>
      </rect>
@@ -51,90 +57,19 @@
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#a18448; border-radius: 35px;</string>
+     <string notr="true">#down_button{
+background-color:#a18448; border-radius: 35px; 
+}
+#down_button:pressed{
+background-color:#d7c7a7; border-radius: 35px; 
+}</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/down-arrow.svg</normaloff>../../Documents/down-arrow.svg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="left_button">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>220</y>
-      <width>70</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="mouseTracking">
-     <bool>true</bool>
-    </property>
-    <property name="tabletTracking">
-     <bool>true</bool>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:#a18448; border-radius: 35px;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../Documents/left-arrow.svg</normaloff>../../Documents/left-arrow.svg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>20</width>
-      <height>20</height>
-     </size>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="right_button">
-    <property name="enabled">
-     <bool>true</bool>
-    </property>
-    <property name="geometry">
-     <rect>
-      <x>400</x>
-      <y>220</y>
-      <width>70</width>
-      <height>70</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>PointingHandCursor</cursorShape>
-    </property>
-    <property name="mouseTracking">
-     <bool>true</bool>
-    </property>
-    <property name="tabletTracking">
-     <bool>true</bool>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color:#a18448; border-radius: 35px;</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../../Documents/right-arrow.svg</normaloff>../../Documents/right-arrow.svg</iconset>
+      <normaloff>icons/down-arrow.svg</normaloff>icons/down-arrow.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -149,8 +84,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>170</y>
+      <x>160</x>
+      <y>20</y>
       <width>70</width>
       <height>70</height>
      </rect>
@@ -171,14 +106,19 @@
      <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#a18448; border-radius: 35px; </string>
+     <string notr="true">#up_button{
+background-color:#a18448; border-radius: 35px; 
+}
+#up_button:pressed{
+background-color:#d7c7a7; border-radius: 35px; 
+}</string>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/up-arrow.svg</normaloff>../../Documents/up-arrow.svg</iconset>
+      <normaloff>icons/up-arrow.svg</normaloff>icons/up-arrow.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -193,8 +133,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>50</y>
+      <x>550</x>
+      <y>190</y>
       <width>64</width>
       <height>23</height>
      </rect>
@@ -206,8 +146,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>130</y>
+      <x>740</x>
+      <y>190</y>
       <width>64</width>
       <height>23</height>
      </rect>
@@ -219,9 +159,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>20</y>
-      <width>256</width>
+      <x>445</x>
+      <y>30</y>
+      <width>481</width>
       <height>121</height>
      </rect>
     </property>
@@ -241,8 +181,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>510</x>
-      <y>20</y>
+      <x>940</x>
+      <y>30</y>
       <width>16</width>
       <height>121</height>
      </rect>
@@ -257,8 +197,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>20</y>
+      <x>550</x>
+      <y>170</y>
       <width>67</width>
       <height>17</height>
      </rect>
@@ -718,8 +658,8 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>60</x>
-      <y>100</y>
+      <x>740</x>
+      <y>170</y>
       <width>67</width>
       <height>17</height>
      </rect>
@@ -1179,9 +1119,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>250</y>
-      <width>201</width>
+      <x>31</x>
+      <y>490</y>
+      <width>241</width>
       <height>16</height>
      </rect>
     </property>
@@ -1198,9 +1138,9 @@
     </property>
     <property name="geometry">
      <rect>
-      <x>509</x>
-      <y>250</y>
-      <width>201</width>
+      <x>30</x>
+      <y>560</y>
+      <width>241</width>
       <height>20</height>
      </rect>
     </property>
@@ -1220,18 +1160,22 @@
    <widget class="QPushButton" name="shutdown_button">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>500</y>
+      <x>320</x>
+      <y>610</y>
       <width>341</width>
-      <height>51</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #bf2424, stop:1 #e64343);border:none;border-radius:5px;
-</string>
+     <string notr="true">#shutdown_button{
+background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #bf2424, stop:1 #e64343);border:none;border-radius:5px;
+}
+#shutdown_button:pressed{
+background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #e77e7e, stop:1 #f3a5a5);border:none;border-radius:5px;
+}</string>
     </property>
     <property name="text">
      <string>Shutdown</string>
@@ -1240,8 +1184,8 @@
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>560</x>
-      <y>220</y>
+      <x>81</x>
+      <y>530</y>
       <width>67</width>
       <height>17</height>
      </rect>
@@ -1256,8 +1200,8 @@
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
-      <x>70</x>
-      <y>220</y>
+      <x>81</x>
+      <y>460</y>
       <width>81</width>
       <height>17</height>
      </rect>
@@ -1273,9 +1217,9 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>360</y>
+      <y>240</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1289,7 +1233,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/rotate-left.svg</normaloff>../../Documents/rotate-left.svg</iconset>
+      <normaloff>icons/rotate-left.svg</normaloff>icons/rotate-left.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1298,13 +1242,13 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="flip_left_button">
+   <widget class="QPushButton" name="flip_horizontal_button">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>360</y>
+      <x>30</x>
+      <y>350</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1318,7 +1262,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/flip-left.svg</normaloff>../../Documents/flip-left.svg</iconset>
+      <normaloff>icons/flip-left.svg</normaloff>icons/flip-left.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1327,32 +1271,42 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_8">
+   <widget class="QPushButton" name="image_display_monitor2">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>360</y>
+      <x>1090</x>
+      <y>230</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">color:#eee;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/monitor2-image.svg</normaloff>icons/monitor2-image.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="screenshot_button">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>360</y>
+      <x>300</x>
+      <y>240</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1366,7 +1320,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/Screenshot.svg</normaloff>../../Documents/Screenshot.svg</iconset>
+      <normaloff>icons/Screenshot.svg</normaloff>icons/Screenshot.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1375,70 +1329,80 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_10">
+   <widget class="QPushButton" name="switch_controls">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>360</y>
+      <x>1230</x>
+      <y>230</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">color:#eee;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/mon1-mon2.svg</normaloff>icons/mon1-mon2.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_11">
+   <widget class="QPushButton" name="memory_inc_button">
     <property name="geometry">
      <rect>
-      <x>450</x>
-      <y>430</y>
+      <x>1090</x>
+      <y>340</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">color:#eee;</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Mem +</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_12">
+   <widget class="QPushButton" name="memory_dec_button">
     <property name="geometry">
      <rect>
-      <x>590</x>
-      <y>430</y>
+      <x>1230</x>
+      <y>340</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true"/>
+     <string notr="true">color:#eee;</string>
     </property>
     <property name="text">
-     <string/>
+     <string>Mem -</string>
     </property>
    </widget>
    <widget class="QPushButton" name="image_invert_button">
     <property name="geometry">
      <rect>
-      <x>310</x>
-      <y>430</y>
+      <x>300</x>
+      <y>350</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1452,7 +1416,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/image-invert.svg</normaloff>../../Documents/image-invert.svg</iconset>
+      <normaloff>icons/image-invert.svg</normaloff>icons/image-invert.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1464,10 +1428,10 @@
    <widget class="QPushButton" name="rotate_cw_button">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>430</y>
+      <x>160</x>
+      <y>240</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1481,7 +1445,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/rotate-right.svg</normaloff>../../Documents/rotate-right.svg</iconset>
+      <normaloff>icons/rotate-right.svg</normaloff>icons/rotate-right.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1490,13 +1454,13 @@
      </size>
     </property>
    </widget>
-   <widget class="QPushButton" name="flip_right_button">
+   <widget class="QPushButton" name="flip_vertical_button">
     <property name="geometry">
      <rect>
-      <x>170</x>
-      <y>430</y>
+      <x>160</x>
+      <y>350</y>
       <width>100</width>
-      <height>50</height>
+      <height>75</height>
      </rect>
     </property>
     <property name="cursor">
@@ -1510,7 +1474,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/flip-right.svg</normaloff>../../Documents/flip-right.svg</iconset>
+      <normaloff>icons/flip-vertical.svg</normaloff>icons/flip-vertical.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1522,18 +1486,24 @@
    <widget class="QPushButton" name="restart_button">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>500</y>
+      <x>700</x>
+      <y>610</y>
       <width>341</width>
-      <height>51</height>
+      <height>71</height>
      </rect>
     </property>
     <property name="cursor">
      <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
-     <string notr="true">background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #39bd57, stop:1 #60e07e
-);border:none;border-radius:5px;</string>
+     <string notr="true">#restart_button{
+background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #39bd57, stop:1 #60e07e
+);border:none;border-radius:5px;
+}
+#restart_button:pressed{
+background:qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 #89dc9c, stop:1 #bff2cb
+);border:none;border-radius:5px;
+}</string>
     </property>
     <property name="text">
      <string>Restart</string>
@@ -1542,8 +1512,8 @@
    <widget class="QPushButton" name="pushButton_17">
     <property name="geometry">
      <rect>
-      <x>-10</x>
-      <y>200</y>
+      <x>1</x>
+      <y>440</y>
       <width>101</width>
       <height>61</height>
      </rect>
@@ -1556,7 +1526,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/brightness.svg</normaloff>../../Documents/brightness.svg</iconset>
+      <normaloff>icons/brightness.svg</normaloff>icons/brightness.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1568,8 +1538,8 @@
    <widget class="QPushButton" name="pushButton_18">
     <property name="geometry">
      <rect>
-      <x>480</x>
-      <y>210</y>
+      <x>1</x>
+      <y>520</y>
       <width>101</width>
       <height>41</height>
      </rect>
@@ -1582,7 +1552,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../../Documents/contrast.svg</normaloff>../../Documents/contrast.svg</iconset>
+      <normaloff>icons/contrast.svg</normaloff>icons/contrast.svg</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -1591,9 +1561,499 @@
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="down_button_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>120</y>
+      <width>70</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#down_button_2{
+background-color:#a18448; border-radius: 35px; 
+}
+#down_button_2:pressed{
+background-color:#d7c7a7; border-radius: 35px; 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/down-arrow.svg</normaloff>icons/down-arrow.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="up_button_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>20</y>
+      <width>70</width>
+      <height>70</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="tabletTracking">
+     <bool>true</bool>
+    </property>
+    <property name="toolTip">
+     <string/>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#up_button_2{
+background-color:#a18448; border-radius: 35px; 
+}
+#up_button_2:pressed{
+background-color:#d7c7a7; border-radius: 35px; 
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/up-arrow.svg</normaloff>icons/up-arrow.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="voltage_inc_button">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>240</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/up-arrow-2.svg</normaloff>icons/up-arrow-2.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="voltage_dec_button">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>350</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/down-arrow-2.svg</normaloff>icons/down-arrow-2.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="current_dec_button">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>350</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/down-arrow-2.svg</normaloff>icons/down-arrow-2.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="current_inc_button">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>240</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/up-arrow-2.svg</normaloff>icons/up-arrow-2.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="automatic_button">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>490</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string>Auto</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="record_invert_button">
+    <property name="geometry">
+     <rect>
+      <x>710</x>
+      <y>490</y>
+      <width>101</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/record-invert.svg</normaloff>icons/record-invert.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="play_video_button">
+    <property name="geometry">
+     <rect>
+      <x>850</x>
+      <y>490</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/play-video-button.svg</normaloff>icons/play-video-button.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="record_button">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>490</y>
+      <width>101</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/video.svg</normaloff>icons/video.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="brightness_indicator_label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>480</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;
+</string>
+    </property>
+    <property name="text">
+     <string>0%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="contrast_indicator_label">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>560</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;
+</string>
+    </property>
+    <property name="text">
+     <string>0%</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="contrast_indicator_label_2">
+    <property name="geometry">
+     <rect>
+      <x>620</x>
+      <y>190</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;
+</string>
+    </property>
+    <property name="text">
+     <string>Kv</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="contrast_indicator_label_3">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>190</y>
+      <width>67</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;
+</string>
+    </property>
+    <property name="text">
+     <string>mA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="xray_button">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>610</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/Xray.svg</normaloff>icons/Xray.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="xray_button_2">
+    <property name="geometry">
+     <rect>
+      <x>1230</x>
+      <y>610</y>
+      <width>100</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#eee;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/Xray.svg</normaloff>icons/Xray.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>121</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/Step-l2r.svg</normaloff>icons/Step-l2r.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>1220</x>
+      <y>30</y>
+      <width>121</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>icons/step-r2l.svg</normaloff>icons/step-r2l.svg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>80</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
    <zorder>down_button</zorder>
-   <zorder>left_button</zorder>
-   <zorder>right_button</zorder>
    <zorder>voltage_indicator_lcd</zorder>
    <zorder>current_indicator_lcd</zorder>
    <zorder>textBrowser</zorder>
@@ -1607,21 +2067,56 @@
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>rotate_ccw_button</zorder>
-   <zorder>flip_left_button</zorder>
-   <zorder>pushButton_8</zorder>
+   <zorder>flip_horizontal_button</zorder>
+   <zorder>image_display_monitor2</zorder>
    <zorder>screenshot_button</zorder>
-   <zorder>pushButton_10</zorder>
-   <zorder>pushButton_11</zorder>
-   <zorder>pushButton_12</zorder>
+   <zorder>switch_controls</zorder>
+   <zorder>memory_inc_button</zorder>
+   <zorder>memory_dec_button</zorder>
    <zorder>image_invert_button</zorder>
    <zorder>rotate_cw_button</zorder>
-   <zorder>flip_right_button</zorder>
+   <zorder>flip_vertical_button</zorder>
    <zorder>restart_button</zorder>
    <zorder>pushButton_17</zorder>
    <zorder>pushButton_18</zorder>
+   <zorder>down_button_2</zorder>
+   <zorder>up_button_2</zorder>
+   <zorder>voltage_inc_button</zorder>
+   <zorder>voltage_dec_button</zorder>
+   <zorder>current_dec_button</zorder>
+   <zorder>current_inc_button</zorder>
+   <zorder>automatic_button</zorder>
+   <zorder>record_invert_button</zorder>
+   <zorder>play_video_button</zorder>
+   <zorder>record_button</zorder>
+   <zorder>brightness_indicator_label</zorder>
+   <zorder>contrast_indicator_label</zorder>
+   <zorder>contrast_indicator_label_2</zorder>
+   <zorder>contrast_indicator_label_3</zorder>
+   <zorder>xray_button</zorder>
+   <zorder>xray_button_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_2</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>false</bool>
+  </property>
+ </designerdata>
 </ui>
