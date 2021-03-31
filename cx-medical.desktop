@@ -1,6 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Name = cx medical
-Exec = /home/bassem/Desktop/cx-medical/app.py
-Icon = /home/bassem/Desktop/cx-medical/logo.png
-Type = Application

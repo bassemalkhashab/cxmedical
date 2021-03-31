@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5 import QtWidgets
 from gui import Ui_MainWindow
 from events import events
 import sys
